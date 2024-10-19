@@ -2,17 +2,11 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div >
-      <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
-  <div className="shrink-0">
-    <img className="size-12" src="/img/logo.svg" alt="ChitChat Logo"/>
-  </div>
-  <div>
-    <div className="text-xl font-medium text-white bg-blue">ChitChat</div>
-    <p className="text-slate-500 font-serif" >You have a new message!</p>
-  </div>
+    <div class="flex  flex-col-reverse sm:flex-row">
+  <div class="basis-1/4 md:basis-1/3">01</div>
+  <div class="basis-1/4 md:basis-1/3">02</div>
+  <div class="basis-1/2 md:basis-1/3">03</div>
 </div>
-    </div>
   )
 }
 
